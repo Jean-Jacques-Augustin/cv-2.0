@@ -102,9 +102,8 @@ export default function Contact() {
                          <Grid item md={12} xs={12}>
 
                                    {socialNetWorkList.map((item, key) => (
-                                       <a style={{color: 'inherit', textDecoration: 'none'}} href={item.link} target="_blank">
+                                       <a key={key} style={{color: 'inherit', textDecoration: 'none'}} href={item.link} target="_blank">
                                             <IconButton
-                                                key={key}
                                                 color="inherit"
                                                 aria-label={item.name}
                                                 component="span"

@@ -14,12 +14,6 @@ export default function Profile() {
             alignItems="center"
             spacing={2}
         >
-            <Grid item md={12} xs={12}>
-                <Typography variant={"h4"}>
-                    <b>Jean Jacques Augustin</b>
-                </Typography>
-                <Toolbar/>
-            </Grid>
             <Grid item md={6} xs={12}>
                 <img style={{
                     width: "100%", height: "100%",
